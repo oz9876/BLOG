@@ -1,8 +1,19 @@
 <template>
     <div class="home-data">
-        <article >
-            水电费水电费水电费
-        </article>
+        <el-collapse-transition>
+            <nav v-show="show3">
+                <article class="article" v-for="item in homeDataList" :key="item.key">
+                    <h3>标题123213213</h3>
+                    <div class="article-img">
+                        <img src="http://www.yangqq.com/d/file/download/div/2018-02-22/d1a7145c2a92931340632d0d64ffe199.jpg"/>
+                        <div class="article-summary">
+                            <p>Html5+css3个人博客模板，主题《心蓝时间轴》，使用css3技术实现网站动画效果，主要模块是时间轴部分.主题颜色为蓝色.目前版本还在测试当中,喜欢的可以先下载....目前版本还在测试当中,喜欢的可以先下载....目前版本还在测试当中,喜欢的可以先下载....目前版本还在测试当中,喜欢的可以先下载....目前版本还在测试当中,喜欢的可以先下载....目前版本还在测试当中,喜欢的可以先下载....目前版本还在测试当中,喜欢的可以先下载....目前版本还在测试当中,喜欢的可以先下载....目前版本还在测试当中,喜欢的可以先下载....目前版本还在测试当中,喜欢的可以先下载....目前版本还在测试当中,喜欢的可以先下载....目前版本还在测试当中,喜欢的可以先下载....目前版本还在测试当中,喜欢的可以先下载...</p>
+                            <div class="time">2017-5-5</div>
+                        </div>
+                    </div>
+                </article>
+            </nav>
+        </el-collapse-transition>
     </div>
 </template>
 
@@ -12,7 +23,9 @@ import { mapState } from 'vuex'
 export default {
     data() {
         return {
-            activeIndex: '1'
+            activeIndex: '1',
+            homeDataList: [1,23,23,4],
+            show3: false
         }
     },
     components: {
@@ -22,6 +35,10 @@ export default {
 
     },
     created() {
+        setTimeout(()=>{
+            this.show3 = true
+        },2000)
+        
         // this.$store.commit(WX_SHARE_SHOW, false)
         // this.$store.dispatch('checkChannelId', {
         //     params: this.$route.params,
@@ -202,60 +219,57 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less" scoped>
-    .home nav{
-        height: inherit;
-        line-height: inherit;
-        position: absolute;
-        right: 0;
-        top: 0;
-        ul{
-            position: fixed;
-            right: 0px;
-            li{
-                list-style: none;
-                margin: 0;
-                padding: 0;
-                white-space: nowrap;
-                a{
-                    border: 0;
-                    color: #fff;
-                    display: block;
-                    font-size: 0.8em;
-                    letter-spacing: 0.225em;
-                    padding-right: 1.5em;
-                    text-transform: uppercase;
-                }
-                a:after{
-                    content: "";
-                    position: absolute;
-                    top: 50%;
-                    margin-top: -2px;
-                    left: 2px;
-                    background-color: #fff;
-                    box-shadow: 0 -2px 0 0 #fff, 0 2px 0 0 #fff;
-                    background-color: #ffffff;
-                    box-shadow: 0 -7px 0 0 #ffffff, 0 7px 0 0 #ffffff;
-                    background-position: right center;
-                    background-repeat: no-repeat;
-                    height: 3px;
-                    vertical-align: top;
-                    width: 21px;
-                }
-            }
-        }
-    }
 
 </style>
 <style lang="less" >
     .home-data{
-        background: rgba(169, 169, 169, 0.2);
+        box-shadow: inset #a9a9a9 0px 0px 7px 10px;
+        background: #c1c1c1;
         min-height: 200px;
         padding: 15px;
         margin-top: 20px;
-        article{
-            background: rgba(169, 169, 169, 0.25);
-            min-height: 200px;
-            box-shadow: rgba(169, 169, 169, 0.35) 0px 1px 8px 1px;
+        nav{
+            margin: 10px;
+            width: 650px;
+        }
+        .article{
+            padding: 10px;
+            padding-top: 1px;
+            word-wrap: break-word;
+            padding-bottom: 20px;
+            border-bottom: 1px;
+            border-bottom-style: dotted;
+            h3{
+                margin: 10px 0;
+            }
+        }
+        .article:hover{
+            background: #afafaf;
+        }
+        .article-img{
+            display: -webkit-box;
+            display: -moz-box;
+            height: 120px;
+            overflow: hidden;
+            img{
+                width: 200px;
+            }
+            .article-summary{
+                width: 410px;
+                margin-left: 20px;
+                p{
+                    height: 90px;
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 4;
+                    overflow: hidden;
+                    margin: 0;
+                }
+                .time{
+                    margin-top: 8px;
+                }
+            }
         }
     }
 </style>

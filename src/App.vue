@@ -34,6 +34,19 @@ export default {
         pushLink: state => state.pushLink,
         replaceLink: state => state.replaceLink
     }),
+    created(){
+        // 滚轮高度监听
+        function getScrollTop(){   
+            if(document.documentElement&&document.documentElement.scrollTop){   
+                return document.documentElement.scrollTop;   
+            }else if(document.body){   
+                return document.body.scrollTop;   
+            }
+        }   
+        document.onscroll = function(){
+            console.log(getScrollTop())      
+        }  
+    },
     watch: {
         pageState(val) {
         },
