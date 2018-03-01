@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>${htmlWebpackPlugin.options.title}</title>
+    <link rel="Shortcut Icon" href="/${htmlWebpackPlugin.options.static}favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <script>
+        window.resourceBaseUrl = '/';
+        window.baseUrl = '${htmlWebpackPlugin.options.baseUrl}';
+        window.suffix = '${htmlWebpackPlugin.options.suffix}';
+        window.isHistoryMode = true;
+    </script>
+</head>
+<body>
+    <div id="app-box"></div>
+    <!-- built files will be auto injected -->
+</body>
+</html>

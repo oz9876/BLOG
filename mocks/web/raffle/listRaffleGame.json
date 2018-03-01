@@ -1,0 +1,69 @@
+{
+    "code": "200",
+    "data": [
+        {
+            "ctime": 1509096378,
+            "gameId": 1509089087882535,
+            "gameName": "仙缘诀",
+            "icon": "https://yxmfile-dev.youximao.tv/jpg/3ae80a3a-dd44-4297-857d-17224bc9da97.jpg",
+            "utime": 1509096378
+        },
+        {
+            "ctime": 1509096378,
+            "gameId": 15090890878821536,
+            "gameName": "仙域永恒",
+            "icon": "https://yxmfile-dev.youximao.tv/jpg/3ae80a3a-dd44-4297-857d-17224bc9da97.jpg",
+            "utime": 1509096378
+        },
+        {
+            "ctime": 1509096378,
+            "gameId": 15090890873882536,
+            "gameName": "仙域永恒",
+            "icon": "https://yxmfile-dev.youximao.tv/jpg/3ae80a3a-dd44-4297-857d-17224bc9da97.jpg",
+            "utime": 1509096378
+        },
+        {
+            "ctime": 1509096378,
+            "gameId": 15090890847882536,
+            "gameName": "仙域永恒",
+            "icon": "https://yxmfile-dev.youximao.tv/jpg/3ae80a3a-dd44-4297-857d-17224bc9da97.jpg",
+            "utime": 1509096378
+        },
+        {
+            "ctime": 1509096378,
+            "gameId": 15090890187882536,
+            "gameName": "仙域永恒",
+            "icon": "https://yxmfile-dev.youximao.tv/jpg/3ae80a3a-dd44-4297-857d-17224bc9da97.jpg",
+            "utime": 1509096378
+        },
+        {
+            "ctime": 1509096378,
+            "gameId": 15090893087882536,
+            "gameName": "仙域永恒",
+            "icon": "https://yxmfile-dev.youximao.tv/jpg/3ae80a3a-dd44-4297-857d-17224bc9da97.jpg",
+            "utime": 1509096378
+        },
+        {
+            "ctime": 1509096378,
+            "gameId": 1509089087882536,
+            "gameName": "仙域永恒",
+            "icon": "https://yxmfile-dev.youximao.tv/jpg/3ae80a3a-dd44-4297-857d-17224bc9da97.jpg",
+            "utime": 1509096378
+        },
+        {
+            "ctime": 1509096378,
+            "gameId": 15090890878825136,
+            "gameName": "仙域永恒",
+            "icon": "https://yxmfile-dev.youximao.tv/jpg/3ae80a3a-dd44-4297-857d-17224bc9da97.jpg",
+            "utime": 1509096378
+        },
+        {
+            "ctime": 1509096378,
+            "gameId": 15090891087882536,
+            "gameName": "仙域永恒",
+            "icon": "https://yxmfile-dev.youximao.tv/jpg/3ae80a3a-dd44-4297-857d-17224bc9da97.jpg",
+            "utime": 1509096378
+        }
+    ],
+    "message": "成功"
+}

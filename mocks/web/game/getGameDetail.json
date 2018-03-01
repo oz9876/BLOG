@@ -1,0 +1,242 @@
+{
+    "code": "200",
+    "data": {
+        "giftbags":[
+            {
+                "gameId":1479887736941,
+                "instructions":"使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容。",
+                "giftbagName":"《时空枪战》平台公会礼包",
+                "surplusNum":778,
+                "gameIcon":"0",
+                "surplusPercent":97,
+                "content":"1、内容1*x 2、内容2*x 3、内容3*x",
+                "gameName":"时空枪战",
+                "totalNum":800,
+                "giftbagId":277,
+                "osType":1,
+                "startTime":"2016-12-03",
+                "endTime":"2018-12-31"
+            },
+            {
+                "gameId":1479887736941,
+                "instructions":"《时空枪战》礼包",
+                "giftbagName":"《时空枪战》礼包",
+                "surplusNum":4,
+                "gameIcon":"0",
+                "surplusPercent":100,
+                "content":"《时空枪战》礼包",
+                "gameName":"时空枪战",
+                "totalNum":4,
+                "giftbagId":386,
+                "osType":1,
+                "startTime":"2017-11-17",
+                "endTime":"2016-12-31"
+            },
+            {
+                "gameId":1479887736941,
+                "instructions":"使用说明内容。使用说明内容。使用说明内容。292_1482126053038_171",
+                "giftbagName":"《时空枪战》公会礼包",
+                "surplusNum":178,
+                "gameIcon":"0",
+                "surplusPercent":98,
+                "content":"1、内容1内容1内容*x 2、内容2内容2内容2内容2*x 3、内容3内容3内容3内容3内容3*x",
+                "gameName":"时空枪战",
+                "totalNum":181,
+                "giftbagId":292,
+                "osType":1,
+                "startTime":"2016-12-03",
+                "endTime":"2016-12-30"
+            },
+            {
+                "gameId":1479887736941,
+                "instructions":"使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容。",
+                "giftbagName":"《时空枪战》平台公会礼包",
+                "surplusNum":4,
+                "gameIcon":"0",
+                "surplusPercent":80,
+                "content":"1、内容1*x 2、内容2*x 3、内容3*x",
+                "gameName":"时空枪战",
+                "totalNum":5,
+                "giftbagId":310,
+                "osType":1,
+                "startTime":"2016-12-03",
+                "endTime":"2016-12-31"
+            },
+            {
+                "gameId":1479887736941,
+                "instructions":"使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容，使用说明内容。",
+                "giftbagName":"《时空枪战》平台公会礼包",
+                "surplusNum":4,
+                "gameIcon":"0",
+                "surplusPercent":80,
+                "content":"1、内容1*x 2、内容2*x 3、内容3*x",
+                "gameName":"时空枪战",
+                "totalNum":5,
+                "giftbagId":309,
+                "osType":1,
+                "startTime":"2016-12-03",
+                "endTime":"2016-12-31"
+            },
+            {
+                "gameId":1479887736941,
+                "instructions":"222",
+                "giftbagName":"abc111",
+                "surplusNum":0,
+                "gameIcon":"0",
+                "surplusPercent":0,
+                "content":"11",
+                "gameName":"时空枪战",
+                "totalNum":15,
+                "giftbagId":301,
+                "osType":1,
+                "startTime":"2016-12-03",
+                "endTime":"2018-12-31"
+            },
+            {
+                "gameId":1479887736941,
+                "instructions":"11111 12121 12121",
+                "giftbagName":"《时空枪战》礼包1",
+                "surplusNum":5,
+                "gameIcon":"0",
+                "surplusPercent":100,
+                "content":"11111 12121 12121",
+                "gameName":"时空枪战",
+                "totalNum":5,
+                "giftbagId":345,
+                "osType":1,
+                "startTime":"2016-12-05",
+                "endTime":"2018-12-31"
+            },
+            {
+                "gameId":1479887736941,
+                "instructions":"《时空枪战》礼包《时空枪战》礼包",
+                "giftbagName":"《时空枪战》礼包8",
+                "surplusNum":0,
+                "gameIcon":"0",
+                "surplusPercent":0,
+                "content":"《时空枪战》礼包《时空枪战》礼包",
+                "gameName":"时空枪战",
+                "totalNum":4,
+                "giftbagId":365,
+                "osType":1,
+                "startTime":"2016-12-05",
+                "endTime":"2016-12-31",
+                "taoCount":6
+            },
+            {
+                "gameId":1479887736941,
+                "instructions":"《时空枪战》礼包《时空枪战》礼包",
+                "giftbagName":"《时空枪战》礼包7",
+                "surplusNum":0,
+                "gameIcon":"0",
+                "surplusPercent":0,
+                "content":"《时空枪战》礼包《时空枪战》礼包",
+                "gameName":"时空枪战",
+                "totalNum":4,
+                "giftbagId":364,
+                "osType":1,
+                "startTime":"2016-12-05",
+                "endTime":"2017-01-07",
+                "taoCount":18
+            },
+            {
+                "gameId":1479887736941,
+                "instructions":"《时空枪战》礼包《时空枪战》礼包",
+                "giftbagName":"《时空枪战》礼包6",
+                "surplusNum":0,
+                "gameIcon":"0",
+                "surplusPercent":0,
+                "content":"《时空枪战》礼包《时空枪战》礼包",
+                "gameName":"时空枪战",
+                "totalNum":4,
+                "giftbagId":363,
+                "osType":1,
+                "startTime":"2016-12-05",
+                "endTime":"2016-12-31",
+                "taoCount":7
+            }
+        ],
+        "gameDetail": {
+            "banner": "https://yxmfile-dev.youximao.tv/png/af9c275a-0830-441e-a14a-75551b6a133c.png",
+            "bannerType": 1,
+            "downloadCount": 568,
+            "firstLetter": "1",
+            "forumId": 112,
+            "gameAbstract": "asdf",
+            "gameId": 1507704110247376,
+            "gameLang": 1,
+            "gameName": "309九阳神功",
+            "gameStatus": 2,
+            "gameSummary": "a",
+            "horizationImg": "https://yxmfile-dev.youximao.tv/png/abeb580f-9118-4d64-84fa-67a03a75f3b6.png",
+            "icon1": "https://yxmfile-dev.youximao.tv/png/af269297-3744-4e8d-a02a-2651f7334f65.png",
+            "kindsId": 1004,
+            "kindsName": "单机游戏",
+            "labelNames": [
+                "消除",
+                "联机"
+            ],
+            "manufacturerName": "a",
+            "operationType": 1,
+            "osType": 2,
+            "outterGameId": "309jiuyangshengong",
+            "pkgName": "com.newmiao.jiuyangshengong",
+            "pkgPath": "http://game11.ufile.ucloud.com.cn/mockgame/jiuyangshengong.apk",
+            "pkgSize": 444.00,
+            "pkgVersion": "2",
+            "sdkVersion": "",
+            "systemReqirement": "23",
+            "typeId": 14,
+            "typeName": "其他",
+            "utime": "2017-10-12 11:56:17",
+            "utimeForTen": "2017-10-12"
+        },
+        "recommendGames": [
+            {
+                "gameId": 1507704110247377,
+                "gameName": "309魔龙世界",
+                "icon1": "https://yxmfile-dev.youximao.tv/jpg/abc80930-934c-47f4-9383-c314f7b0bf0c.jpg",
+                "labelNames": [
+                    "策略",
+                    "僵尸"
+                ],
+                "operationType": 1,
+                "osType": 2
+            },
+            {
+                "gameId": 1507704110247376,
+                "gameName": "309九阳神功",
+                "icon1": "https://yxmfile-dev.youximao.tv/png/af269297-3744-4e8d-a02a-2651f7334f65.png",
+                "labelNames": [
+                    "消除",
+                    "联机"
+                ],
+                "operationType": 1,
+                "osType": 2
+            },
+            {
+                "gameId": 1507704110247375,
+                "gameName": "309刀剑兵器谱",
+                "icon1": "https://yxmfile-dev.youximao.tv/jpg/cd754cc1-495b-46b7-8aa8-e22a7747f763.jpg",
+                "labelNames": [
+                    "竞技"
+                ],
+                "operationType": 1,
+                "osType": 2
+            },
+            {
+                "gameId": 1507704110247374,
+                "gameName": "309大话蜀山",
+                "icon1": "https://yxmfile-dev.youximao.tv/jpg/86c007f5-05ce-4c83-851d-15b027175666.jpg",
+                "labelNames": [
+                    "角色",
+                    "跑酷",
+                    "经营"
+                ],
+                "operationType": 1,
+                "osType": 2
+            }
+        ]
+    },
+    "message": "成功"
+}

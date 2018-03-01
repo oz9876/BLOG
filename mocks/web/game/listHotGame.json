@@ -1,0 +1,91 @@
+{
+    "code": "200",
+    "data|1-3": [
+        {
+            "aliasName": "冰火神族-银汉游戏",
+            "downloadCount": 5891,
+            "firstLetter": "bhsz",
+            "formatPkgSize": "236M",
+            "forumId": 2193,
+            "gameId": 1507624049494949,
+            "gameName": "冰火神族",
+            "gameStatus": 2,
+            "gameSummary": "无限连招操作，打造最强奇幻帝国！",
+            "icon1": "https://yxmfile-dev.youximao.tv/png/1c9edac2-1d84-4c4b-972c-6ed3fbe45fcb.png",
+            "kindsId": 1001,
+            "kindsName": "热门游戏",
+            "labelNames": [
+                "角色"
+            ],
+            "manufacturerName": "银汉游戏",
+            "operationType": 1,
+            "osType": 1,
+            "outterGameId": "yongyong_binghuoshenzu_1",
+            "pkgName": "com.yinhan.huancheng.ju360.yxm",
+            "pkgPath": "https://gamepack.youximao.tv/yongyong_binghuoshenzu_1_0829.ipa",
+            "pkgSize": 236,
+            "pkgVersion": "1.0",
+            "typeId": 14,
+            "typeName": "其他"
+        },
+        {
+            "aliasName": "麦克斯",
+            "downloadCount": 301,
+            "firstLetter": "MKS",
+            "formatPkgSize": "300M",
+            "forumId": 10086,
+            "gameId": 1502195561576399,
+            "gameName": "疯狂的麦克斯",
+            "gameStatus": 2,
+            "gameSummary": "疯狂的麦克斯",
+            "icon1": "https://yxmfile-dev.youximao.tv/png/f53d201e-d939-43b7-b4bf-74e5806d455e.png",
+            "kindsId": 1001,
+            "kindsName": "热门游戏",
+            "labelNames": [
+                "梦想",
+                "策略",
+                "格斗"
+            ],
+            "manufacturerName": "网易",
+            "operationType": 1,
+            "osType": 1,
+            "outterGameId": "yxm_yingxiongzhanhun2_2",
+            "pkgName": "疯狂的麦克斯",
+            "pkgPath": "https://gamepack.youximao.tv/yongyong_binghuoshenzu_1_0829.ipa",
+            "pkgSize": 300,
+            "pkgVersion": "3.1.1",
+            "typeId": 14,
+            "typeName": "其他"
+        },
+        {
+            "aliasName": "生存游戏《Mini DAYZ》",
+            "downloadCount": 201,
+            "firstLetter": "scyx",
+            "formatPkgSize": "300M",
+            "forumId": 87,
+            "gameId": 1502086634560936,
+            "gameName": "《Mini DAYZ》-生存游戏",
+            "gameStatus": 2,
+            "gameSummary": "生存游戏《Mini DAYZ》生存游戏《Mini DAYZ》",
+            "icon1": "https://yxmfile-dev.youximao.tv/jpg/4f9ed294-d9e1-4297-92ca-e2ef4f0dfe63.jpg",
+            "kindsId": 1001,
+            "kindsName": "热门游戏",
+            "labelNames": [
+                "冒险",
+                "角色",
+                "策略"
+            ],
+            "manufacturerName": "百度",
+            "operationType": 1,
+            "osType": 1,
+            "outterGameId": "shengcunyouxi",
+            "pkgName": "com.yuansu9",
+            "pkgPath": "https://gamepack.youximao.tv/gamecat_307.apk",
+            "pkgSize": 300,
+            "pkgVersion": "1.1.1",
+            "typeId": 14,
+            "typeName": "其他"
+        }
+    ],
+    "message": "成功"
+}

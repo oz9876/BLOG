@@ -1,0 +1,9 @@
+{
+    "code": "200",
+    "data": {
+        "downloadUrl": "itms-services://?action=download-manifest&url=https://yxmfile-dev.youximao.tv/manifest/ios-0822_gamecat_com.longkong.bhsz.37.manifest.plist",
+        "guideImgs": "http://file.youximao.tv/act/bhszDownload0807/img/step1.png,http://file.youximao.tv/act/bhszDownload0807/img/step2.png,http://file.youximao.tv/act/bhszDownload0807/img/step3.png,http://file.youximao.tv/act/bhszDownload0807/img/step4.png"
+    },
+    "message": "成功",
+    "$$delay": 1000
+}

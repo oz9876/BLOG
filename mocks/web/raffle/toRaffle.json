@@ -1,0 +1,11 @@
+{
+    "code":"200",
+    "data": {
+        "ctime":1514252422,
+        "goodId":1,
+        "goodName":"代金券",
+        "prob":1
+    },
+    "message":"成功",
+    "$$delay":1000
+}

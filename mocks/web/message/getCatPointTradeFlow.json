@@ -1,0 +1,19 @@
+{
+    "code":"200",
+    "data": {
+        "amount":1,
+        "catPoint":8887,
+        "category":2103,
+        "categoryType":"喵点支付",
+        "ctime":1512359733,
+        "expenseType":"喵点支出",
+        "flowId":1510802660631114,
+        "outerTradeId":"2512563516215537",
+        "remark":"游戏消费支出",
+        "status":2,
+        "type":2,
+        "uid":1511934643915373,
+        "utime":1512359733
+    },
+    "message":"成功"
+}

@@ -1,0 +1,25 @@
+{
+    "code":"200",
+    "data": {
+        "total":2,
+        "hasNext": true,
+        "list|3": [
+            {
+                "id":"145677361766727",
+                "uid":15636737263,
+                "accountId":"21621351726127",
+                "type|1-4":1,
+                "title":"@name",
+                "content|1-10":"消费5meiyuan",
+                "url":"wwww.baidu.com",
+                "sender":"xiongben",
+                "isDelete":"1",
+                "ctime":1504923280017781,
+                "utime":"1504923280017781",
+                "timePoint": "刚刚过去"
+           }
+       ]
+    },
+    "message":"成功",
+    "$$delay": 1000
+}

@@ -1,0 +1,8 @@
+{
+    "code": "200",
+    "data": {
+        "chanceNum": 1,
+        "hasChance": false
+    },
+    "message": "成功"
+}
