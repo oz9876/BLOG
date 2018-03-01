@@ -242,9 +242,10 @@ export default {
             h3{
                 margin: 10px 0;
             }
+            transition: 500ms;
         }
         .article:hover{
-            background: #afafaf;
+            background: #b6b6b7;
         }
         .article-img{
             display: -webkit-box;
