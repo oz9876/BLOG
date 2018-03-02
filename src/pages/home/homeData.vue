@@ -228,6 +228,7 @@ export default {
         min-height: 200px;
         padding: 15px;
         margin-top: 20px;
+        margin-bottom: 100px;
         nav{
             margin: 10px;
             width: 650px;
@@ -242,10 +243,11 @@ export default {
             h3{
                 margin: 10px 0;
             }
-            transition: 500ms;
+            transition: 800ms;
         }
         .article:hover{
-            background: #b6b6b7;
+            background: linear-gradient(30deg, #c5c4c4, #ababab, #c5c5c5);
+            // background: red;
         }
         .article-img{
             display: -webkit-box;

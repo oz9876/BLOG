@@ -1,10 +1,19 @@
 <template>
     <div id="app">
-        <transition name="fade">
+        <transition name="unfade" >
+            <div class="init-loading" v-show="!initLoaded">
+                <InitLoading/>
+            </div>
+        </transition>
+        
+        <transition name="fade" >
+            <div v-show="initLoaded">
             <!-- <keep-alive> -->
                 <router-view></router-view>
             <!-- </keep-alive> -->
+            </div>
         </transition>
+        
         <!-- <div v-transfer-dom>
             <loading :show="isLoading"></loading>
         </div> -->
@@ -14,6 +23,7 @@
 <script>
 import { mapState } from 'vuex'
 // import { Loading, TransferDomDirective as TransferDom } from 'vux'
+import InitLoading from './components/initLoading'
 import {
     SHOW_ERROR_TOAST,
     UPDATE_PUSH_LINK,
@@ -24,8 +34,14 @@ export default {
     // directives: {
     //     TransferDom
     // },
+    data() {
+        return {
+            initLoaded: false
+        }
+    },
     components: {
         // Loading
+        InitLoading
     },
     computed: mapState({
         // isLoading: state => state.isLoading,
@@ -35,6 +51,9 @@ export default {
         replaceLink: state => state.replaceLink
     }),
     created(){
+        setTimeout(()=>{
+            this.initLoaded = true
+        },3000)
         // 滚轮高度监听
         function getScrollTop(){   
             if(document.documentElement&&document.documentElement.scrollTop){   
@@ -74,14 +93,29 @@ export default {
 @import './App.less';
 </style>
 <style lang="less">
+
+.unfade-leave-active {
+    animation: unfade-hidden 1s;
+}
+
 .fade-enter-active {
-    animation: fade-in 0.3s;
+    animation: fade-in 0.5s;
 }
 
 .fade-leave-active {
-    animation: fade-out 0.3s;
+    animation: fade-out 0.5s;
 }
 
+
+@keyframes unfade-hidden {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        height: 0;
+        opacity: 0;
+    }
+}
 @keyframes fade-in {
     0% {
         opacity: 0;
@@ -97,33 +131,5 @@ export default {
     100% {
         opacity: 0;
     }
-}
-
-.move-enter-active{
-  animation: move-in 0.3s;
-  width: 100%;
-  position: fixed;
-}
-.move-leave-active {
-  animation: move-out 0.3s;
-  width: 100%;
-  position: fixed;
-}
-
-@keyframes move-in {
-  0% {
-    left: -100%;
-  }
-  100% {
-    left: 0%;
-  }
-}
-@keyframes move-out {
-  0% {
-    left: 0%;
-  }
-  100% {
-    left: 100%;
-  }
 }
 </style>
